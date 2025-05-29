@@ -1,0 +1,119 @@
+.container{
+    position: relative; /* establece un contexto de posiconamiento para los elementos hijos que utilicen "absolute"*/
+}
+.caja{
+    width: 180px; /*ancho fijo*/
+    height: 180px; /*alto fijo*/
+    background-color: #30b037; /*color de fondo*/
+    color: #fff; /* texto blanco*/
+    text-align: center; /* centrar el texto horizontalmente*/
+    line-height: 180px; /* centra verticalmente el texto, igual a la altura de la caja*/
+    margin: 15px; /* espacio alredor de cada caja*/
+    float: left; /* permite que las cajas se alineen a la izquierda en una fila*/
+    font-size: 18px; /*tamaño de fuente del texto*/
+    font-family: Arial; /* fuente utilizda en el texto*/
+}
+
+.caja1{
+    background-color: #c0392b; /* color de fondo*/
+    -webkit-transition: background-color 1s linear; /*transicion suace para cambios de color en los navegadores*/
+    transition: background-color 1s linear; /*transicon suave para cambios de colores*/
+}
+
+.caja1:hover{
+    background-color: #3f51b5; /*cambia a un color azul al pasar el raton*/
+}
+
+.caja2{
+    background-color: #9b59b6; /* color de fondo*/
+    -webkit-transition: font-size 1s ease; /* transicion suave para cambios de tamaño de fuente*/
+    transition: font-size 1s ease; /* transicion suave para cambios de tamaño de fuente*/
+}
+
+.caja2:hover{
+    font-size: 28px; /* aumentar el tamaño de fuente al pasar el raton*/
+}
+
+.caja3{
+    background-color: #2980b9; /* color de fondo*/
+    -webkit-transition: color 1s linear; /*transicion suave para cambios de colores*/
+    transition: color 1s linear; /* transicion suave para cambios de color*/
+}
+
+.caja3:hover{
+    color: yellow; /* cambia el color del texto a amarillo al pasar el raton*/
+}
+
+.caja4{
+    background-color: #3498db; /* color de fondo*/
+    -webkit-transition: 1s linear; /* transicion suave para todos los cambios*/
+    transition: 1s linear; /*transicion suave para todos los cambios*/
+}
+
+.caja4:hover{
+    line-height: 300px; /* aumenta la altura de linea al pasar el raton*/
+}
+
+.caja5{
+    border-radius: 0px; /*esquinas cuadradas, sin redondeo*/
+    background-color: #17a589; /* color de fondo*/
+    -webkit-transition: 1s linear; /* transicion suave para cambios*/
+    transition: 1s linear; /* transicion suave para cambios*/
+}
+
+.caja5:hover{
+    border-radius: 20px; /* redondea las esquinas al pasar el raton*/
+}
+
+.caja6{
+    background-color: #f1c40f; /* color de fondo*/
+    -webkit-transition: 1s linear; /* transicion suave para los cambios*/
+    transition: 1s linear; /* transicion suave para los cambios*/
+}
+
+.caja6:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47); /* sombra del cuadro en el navegador*/
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47); /* sombra del cuadro para dar un efecto de profundidad*/
+}
+
+.caja7{
+    background-color: #e67e22; /* color de fondo*/
+    -webkit-transition: 1s linear; /* transicion suave para cambios*/
+    transition: 1s linear; /* transicion suave para cambios*/
+}
+
+.caja7:hover{
+    opacity: 0.3; /* reduce la opacidad al pasar el raton*/
+}
+
+.caja8{
+    background-color: #95a5a6; /* color de fondo*/
+    -webkit-transition: 1s linear; /* transicion suave para cambios*/
+    transition: 1s linear; /* transicion suave para cambios*/
+}
+
+.caja8:hover{
+    border-style: solid; /* cambia el estilo del c¿borde a solido al pasar el raton*/
+    border-color: #95a5a6; /* define el color del borde*/
+    border-color: #000; /* cambia el color del borde a negro al pasar el raton*/
+}
+
+.caja9{
+    background-color: #2c3e50; /* color de fondo*/
+    -webkit-transition: 1s linear; /* transicion suave para cambios para navegadores*/
+    transition: 1s linear; /* transicion suave para cambios de estilos*/
+}
+
+.caja9:hover{
+    margin: 80px; /* aumenta el margen al pasar el raton*/
+}
+
+.caja10{
+    background-color: #000; /* color de fondo*/
+    -webkit-transition:  1s linear; /* transicion suave para cambios en navegadors*/
+    transition: 1s linear; /* transicion suave para cambios de estilos*/
+}
+
+.caja10:hover{
+    padding: 30px; /* aumenta el relleno al pasar el raton*/
+}
